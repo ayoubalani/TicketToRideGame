@@ -334,7 +334,7 @@ public class Display extends Application{
         Button p2 = new Button();
         p2.setTranslateX(0);
         p2.setTranslateY(245);
-        p2.setText("Start Game");
+        p2.setText("Start Game"); //beginning button 
         
         //Create Ready Button
         Button ready = new Button("Ready "+game.getPlayers().get(count).GetName());
@@ -720,7 +720,7 @@ public class Display extends Application{
         ELPtoDALlength.setTranslateY(490);
         ELPtoDALlength.setStyle("-fx-font-weight: bold");
         ELPtoDALlength.setStyle("-fx-font: 18 arial;");
-        
+        //added new line
         
 
 
@@ -1108,7 +1108,7 @@ public class Display extends Application{
         
         //DEFINE SCENE 1
         StackPane root1 = new StackPane();
-        Scene scene1 = new Scene(root1, 1280,720);
+        Scene scene1 = new Scene(root1, 1000,650);
         
         
         root1.getChildren().addAll(BoarderImage,p2);
@@ -1117,7 +1117,7 @@ public class Display extends Application{
         
         //Define SCENE 2
         Pane root2 = new Pane();
-        Scene scene2 = new Scene(root2, 1280,720);
+        Scene scene2 = new Scene(root2, 1280,720); //it was 1280, 720 in the beginning
         
         Pane cardInfo = new Pane();
         cardInfo.setTranslateX(140);
